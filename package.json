@@ -1,0 +1,19 @@
+{
+  "name": "cypress-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "redis":  "node redis-client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.9.0"
+  },
+  "dependencies": {
+    "redis": "^4.3.1"
+  }
+}
